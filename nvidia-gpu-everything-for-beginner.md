@@ -45,7 +45,7 @@ Here's an explanation of the various formats:
     - Computational fluid dynamics
     - Financial modeling with high accuracy requirements
 - **Performance**: Slowest but highest precision
-1. FP32 (Single Precision)
+2. FP32 (Single Precision)
 - **Bits**: 32 (23-bit mantissa, 8-bit exponent, 1-bit sign)
 - **Use Cases**:
     - General-purpose computing
@@ -53,35 +53,35 @@ Here's an explanation of the various formats:
     - Computer graphics
     - Physics simulations
 - **Performance**: Balanced between precision and speed
-1. TF32 (Tensor Float 32)
+3. TF32 (Tensor Float 32)
 - **Bits**: 19 (10-bit mantissa, 8-bit exponent, 1-bit sign)
 - **Use Cases**:
     - AI model training (NVIDIA-specific format)
     - Offers a balance between FP32 accuracy and FP16 speed
     - First introduced with the **Ampere** architecture
 - **Performance**: Faster than FP32 with minimal accuracy loss for many AI tasks
-1. FP16 (Half Precision)
+4. FP16 (Half Precision)
 - **Bits**: 16(10-bit mantissa, 5-bit exponent, 1-bit sign)
 - **Use Cases**:
     - AI model training and inference
     - Computer vision
     - Image processing
 - **Performance**: Faster and more memory-efficient than FP32, with some accuracy trade-offs
-1. BF16 (Brain Float 16)
+5. BF16 (Brain Float 16)
 - **Bits**: 16 (7-bit mantissa, 8-bit exponent, 1-bit sign)
 - **Use Cases**:
     - AI model training, especially for **Large Language Models**
     - Offers better dynamic range than FP16
     - First introduced with the **Ampere** architecture
 - **Performance**: Good balance of speed and accuracy for many AI workloads
-1. INT8 (8-bit Integer)
+6. INT8 (8-bit Integer)
 - **Bits**: 8 (0-bit mantissa, 7-bit exponent, 1-bit sign)
 - **Use Cases**:
     - AI inference
     - Image processing
     - Low-precision neural network acceleration
 - **Performance**: High performance and low memory usage, suitable for deployment on edge devices
-1. FP8 (8-bit Floating Point)
+7. FP8 (8-bit Floating Point)
 - **Bits**: 8 (3-bit mantissa, 4-bit exponent, 1-bit sign)
 - **Use Cases**:
     - AI training and inference (emerging format)
@@ -311,7 +311,7 @@ int main() {
 }
 ```
 
-If you need code explanation, please refer to [Claude.ai](http://Claude.ai) or chatGPT
+If you need code explanation, please refer to [Claude.ai](http://Claude.ai) or [chatGPT](https://chatgpt.com/)
 
 # Finally, Maximize GPU Performance
 
